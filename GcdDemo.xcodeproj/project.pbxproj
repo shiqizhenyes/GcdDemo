@@ -14,6 +14,8 @@
 		14257A302187E4AC003E2253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14257A2E2187E4AC003E2253 /* LaunchScreen.storyboard */; };
 		14257A3B2187E4AC003E2253 /* GcdDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14257A3A2187E4AC003E2253 /* GcdDemoTests.swift */; };
 		14257A462187E4AC003E2253 /* GcdDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14257A452187E4AC003E2253 /* GcdDemoUITests.swift */; };
+		14257A5421883590003E2253 /* DispatchTaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14257A5321883590003E2253 /* DispatchTaskType.swift */; };
+		14257A56218836A1003E2253 /* DispatchDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14257A55218836A1003E2253 /* DispatchDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		14257A412187E4AC003E2253 /* GcdDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GcdDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14257A452187E4AC003E2253 /* GcdDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GcdDemoUITests.swift; sourceTree = "<group>"; };
 		14257A472187E4AC003E2253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14257A5321883590003E2253 /* DispatchTaskType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchTaskType.swift; sourceTree = "<group>"; };
+		14257A55218836A1003E2253 /* DispatchDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				14257A2C2187E4AC003E2253 /* Assets.xcassets */,
 				14257A2E2187E4AC003E2253 /* LaunchScreen.storyboard */,
 				14257A312187E4AC003E2253 /* Info.plist */,
+				14257A5321883590003E2253 /* DispatchTaskType.swift */,
+				14257A55218836A1003E2253 /* DispatchDemo.swift */,
 			);
 			path = GcdDemo;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				14257A282187E4AB003E2253 /* ViewController.swift in Sources */,
 				14257A262187E4AB003E2253 /* AppDelegate.swift in Sources */,
+				14257A56218836A1003E2253 /* DispatchDemo.swift in Sources */,
+				14257A5421883590003E2253 /* DispatchTaskType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +447,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mobi.zack.area.GcdDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.zack.area;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -457,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mobi.zack.area.GcdDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = mobi.zack.area;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
